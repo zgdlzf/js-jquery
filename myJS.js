@@ -1,4 +1,5 @@
 $(function(){
+    
     /**
      * 引入jquery
      */
@@ -70,18 +71,19 @@ $(function(){
     /**
      * jquery append insertAfter mouseover mouseout hover
      */
-    $("#d1").append("<p>a</p>");
-    $("<p>a</p>").appendTo($("#d1"));
-    $("<p>a</p>").insertAfter($("#d1"));
-    $("#d1").mouseover(function(){
-        alert("aaa");
-    });
-    $("#d1").mouseout(function(){
-        alert("aaa");
-    });
-    $("#d1").hover(function(){
-        alert("a");
-    },function(){
-        alert("b");
-    });
+    // $("#d1").append("<p>a</p>");
+    // $("<p>a</p>").appendTo($("#d1"));
+    // $("<p>a</p>").insertAfter($("#d1"));
+    // $("#d1").mouseover(function(){
+    //     alert("aaa");
+    // });
+    // $("#d1").mouseout(function(){
+    //     alert("aaa");
+    // });
+    // $("#d1").hover(function(){
+    //     alert("a");
+    // },function(){
+    //     alert("b");
+    // });
+
 })
